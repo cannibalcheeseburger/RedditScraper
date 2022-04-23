@@ -1,0 +1,7 @@
+*.ipynb
+media/
+stories/
+videos/
+*csv
+*.stats
+__pycache__
