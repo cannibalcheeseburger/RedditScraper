@@ -153,5 +153,6 @@ class Scraper:
         return self.df
 
     def save_df(self):
+        self.dataframe()
         self.df.to_csv('out.csv',index=None)
     
